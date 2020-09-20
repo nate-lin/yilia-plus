@@ -1,27 +1,17 @@
-hexo-theme-yilia-plus
-================
+### Hexo的yilia-plus主题
 
-![star](https://img.shields.io/github/stars/JoeyBling/hexo-theme-yilia-plus "star")
-![fork](https://img.shields.io/github/forks/JoeyBling/hexo-theme-yilia-plus "fork")
-![GitHub Last Commit](https://img.shields.io/github/last-commit/JoeyBling/hexo-theme-yilia-plus.svg?label=commits "GitHub Last Commit")
-![issues](https://img.shields.io/github/issues/JoeyBling/hexo-theme-yilia-plus "issues")
-[![Author](https://img.shields.io/badge/Author-JoeyBling-red.svg "Author")](https://zhousiwei.gitee.io "Author")
-[![Hexo Version](https://img.shields.io/badge/hexo-%3E%3D%203.0-blue.svg)](http://hexo.io)
-[![博客搭建交流群](https://img.shields.io/badge/QQ群-422625065-red.svg "博客搭建交流群")](https://jq.qq.com/?_wv=1027&k=58Ypj9z "博客搭建交流群")
-[![LICENSE](https://img.shields.io/github/license/JoeyBling/hexo-theme-yilia-plus "LICENSE")](./LICENSE "LICENSE")
+#### yilia-plus
 
-
-&#160;&#160;&#160;&#160;此项目是根据[hexo-theme-yilia](https://github.com/litten/hexo-theme-yilia)主题做了一些优化和改动，写这个项目的初衷就是深入学习`Hexo`。使用`yilia`主题可以快速迁移到`yilia-plus`
-
-#### [立即体验](#三开始使用)
-
-#### [项目支持](#其它项目支持)
+> 一个简洁优雅的hexo主题 ➡️ https://gitee.com/nate-lin/yilia-plus
+> <!-- more -->
+> 此项目是根据[hexo-theme-yilia](https://github.com/litten/hexo-theme-yilia)主题做了一些优化和改动，写这个项目的初衷就是深入学习`Hexo`。使用`yilia`主题可以快速迁移到`yilia-plus`
 
 > **欢迎使用和Star支持，如使用过程中碰到问题，可以提出Issue，我会尽力完善**
 
-> **同时也欢迎相同爱好者加入一起维护此项目**
 
-## 关于[hexo-theme-yilia-plus](https://github.com/JoeyBling/hexo-theme-yilia-plus)主题在原基础上做了以下功能升级
+
+#### 关于[yilia-plus](https://gitee.com/nate-lin/yilia-plus)主题在原基础上做了以下功能升级
+
 1. 手机端头像添加主页跳转链接
 2. 集成不蒜子访问量统计功能
 3. 网易云音乐插件
@@ -31,121 +21,113 @@ hexo-theme-yilia-plus
 7. 页脚 Litten自定义(弃用)
 8. 添加版权声明
 9. 添加百度站长平台主动推送
-10. 集成 gitment 评论 ➡️ [https://github.com/JoeyBling/yilia-plus-demo](https://github.com/JoeyBling/yilia-plus-demo)
-11. [集成码云评论](https://gitee.com/zhousiwei/giteement) ➡️ [https://gitee.com/zhousiwei/yilia-plus-demo](https://gitee.com/zhousiwei/yilia-plus-demo)
-12. 添加网站成立年份
-13. 页面加载进度条
-14. 添加苹果图标
-15. 标签页标题切换功能
-16. 添加字数统计功能
-17. 添加文字输入特效
-18. 友情链接优化展示
-19. 左侧边栏动态图效果、左侧导航栏支持滚动
-20. 添加悬停预览图片效果
-21. 其他样式轻微调优、社交图标优化
-22. 优化配置是否在新窗口打开链接
-23. [fix bugs](https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/fix-bugs-record%EF%BC%88%E4%BF%AE%E5%A4%8Dbug%E8%AE%B0%E5%BD%95%EF%BC%89)
-24. [添加看板娘动态模型插件](https://github.com/JoeyBling/live2d-widget.js)
-25. 添加飘雪特效
-26. 自定义文章版权声明文本
+10. 集成码云评论
+11. 添加网站成立年份
+12. 页面加载进度条
+13. 添加苹果图标
+14. 标签页标题切换功能
+15. 添加字数统计功能
+16. 添加文字输入特效
+17. 友情链接优化展示
+18. 左侧边栏动态图效果、左侧导航栏支持滚动
+19. 添加悬停预览图片效果
+20. 其他样式轻微调优、社交图标优化
+21. 优化配置是否在新窗口打开链接
+22. [fix bugs](https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/fix-bugs-record%EF%BC%88%E4%BF%AE%E5%A4%8Dbug%E8%AE%B0%E5%BD%95%EF%BC%89)
+23. [添加看板娘动态模型插件](https://github.com/JoeyBling/live2d-widget.js)
+24. 添加飘雪特效
+25. 自定义文章版权声明文本
+
+- ### 一款简洁优雅的hexo主题：[yilia-plus](https://gitee.com/nate-lin/yilia-plus)
 
 > 如果有小伙伴有新功能的意见或者改进欢迎给我提意见和建议~
 
+#### 介绍
 
-## 介绍
 - 功能还很少，欢迎各位给我提意见和建议~
-- **本项目源于：[https://github.com/litten/hexo-theme-yilia](https://github.com/litten/hexo-theme-yilia "https://github.com/litten/hexo-theme-yilia")。向作者表示深深的敬意。**
+- **本项目源于：https://github.com/litten/hexo-theme-yilia。向作者表示深深的敬意。**
 
-[yilia-plus](https://github.com/JoeyBling/hexo-theme-yilia-plus) 是为 [hexo](https://github.com/hexojs/hexo) 2.4+制作的主题。
-崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](https://zhousiwei.gitee.io) 查看效果。
+[yilia-plus] 是为 [hexo](https://github.com/hexojs/hexo) 2.4+制作的主题。
+崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](https://nate-lin.gitee.io/) 查看效果。
 
-如果想体验手机浏览效果，可以扫一下二维码：
+------
 
-![](./examples/images/qrcode.png)
+### 关于主题：
 
-----------
-
-## 鼓励
-
-&#160;&#160;&#160;&#160;**如果觉得本主题还不错，您的支持和鼓励才是后续更新最大的动力，== 欢迎 [Star](https://github.com/JoeyBling/hexo-theme-yilia-plus/stargazers) ==**
-
-![Stargazers over time](https://starchart.cc/JoeyBling/hexo-theme-yilia-plus.svg)
-
-## 关于主题：
 1. 崇尚简约
 2. 追求移动端体验
 3. 希望把加载速度做到极致（努力中）
 4. 让大家把注意力放到内容上。这是本主题设计初衷
 5. 主题不支持IE6，7，8。以后也不会
 
-## 一、外观
+### 一、外观
 
 #### **常规**
 
-![常规](./examples/images/web.png)
+![](https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/image-20200826115424063.png)
 
-## 二、开发者
+![](https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/image-20200826115530390.png)
 
-&#160;&#160;&#160;&#160;为了性能和开发工程化考虑，[yilia-plus](https://github.com/JoeyBling/hexo-theme-yilia-plus) 需要使用`webpack`进行构建生成。
-如果您对主题有一些定制化的需求，请参考wiki[《yilia-plus源码目录结构及构建须知》](https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/yilia-plus%E6%BA%90%E7%A0%81%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%8F%8A%E6%9E%84%E5%BB%BA%E9%A1%BB%E7%9F%A5)
+### 二、开发者
 
-#### 评论支持
-- [Gitment](https://github.com/imsun/gitment)
-- [基于码云的评论系统](https://gitee.com/zhousiwei/giteement)
-- DISQUS
-- 搜狐畅言
+  为了性能和开发工程化考虑，[yilia-plus]需要使用`webpack`进行构建生成。
+  如果您对主题有一些定制化的需求，请参考wiki[《yilia-plus源码目录结构及构建须知》](https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/yilia-plus源码目录结构及构建须知)
 
-## 三、开始使用
+### 三、开始使用
 
 #### 1、安装
 
-```bash
-cd ./themes/
-git clone --depth=1 https://github.com/JoeyBling/hexo-theme-yilia-plus.git ./yilia-plus
 ```
+cd ./themes/
+git clone https://gitee.com/nate-lin/yilia-plus.git
+mv yilia-plus yilia-plus
+```
+
+![](https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/image-20200826135941293.png)
 
 #### 2、配置
 
-修改hexo根目录下的 `_config.yml`  ➡️  `theme: yilia-plus`
+修改hexo根目录下的 `_config.yml` ➡️ `theme: yilia-plus`
 
 #### 3、更新
 
-```bash
+```
 cd themes/yilia-plus
 git pull
 ```
 
-## 四、配置
+### 四、配置
 
-&#160;&#160;&#160;&#160;主题配置文件在主目录下的`_config.yml`，请根据自己需要修改使用。
+  主题配置文件在主目录下的`_config.yml`，请根据自己需要修改使用。
 
-> 完整配置Demo例子，可以参考[yilia-plus博客备份](http://github.com/JoeyBling/yilia-plus-demo)
+> 完整配置例子，可以参考[yilia-plus博客备份](https://gitee.com/nate-lin/yilia-plus)
 
 ```yaml
 # Header-菜单
 menu:
   主页: /
-  技术笔记: https://zhousiwei.gitee.io/ibooks/
-  随笔: /tags/随笔/
-
+  归档: /archives
+  标签: /tags
+  分类: /categories
+  
 # subNav-子导航
-subNav:
-  github: "#"
-  gitee: "#" # 码云
-  jianshu: "#" #简书
-  cnblog: "#"
+subNav: 
+  gitee: https://gitee.com/nate-lin # 码云
+  github: https://github.com/nate-lin
+  #jianshu: "#" #简书
+  #cnblog: "#"
   #blog: "#"
   #csdn: "#"
   #rss: "#"
   #zhihu: "#"
-  #qq: "img/2434387555.jpg"
-  #weixin: "img/weixin_.png"
+  qq: "/img/QQ.jpg"
+  weixin: "/img/WeChat.jpg"
   #weibo: "#"
   #douban: "#"
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:zhousiwei0911@qq.com"
+  mail: "mailto:linchunyan335@163.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -165,11 +147,12 @@ rss: /atom.xml
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
 # 请将您的 url 设为 http://yoursite.com/blog 并把 / 设为 /blog/。
-root: /
+# 新版本已弃用，请在博客根目录文件进行配置
+# root: /
 
 # Content
 
-# 文章太长，截断按钮文字(在需要截断的行增加此标记：<!--more-->)
+# 文章太长，截断按钮文字（<!-- more -->）
 excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
@@ -190,11 +173,11 @@ reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay: /img/alipay.jpg
 # 微信二维码图片地址
-weixin: /img/weixin.png
+weixin: /img/weixin.jpg
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 1
+toc: 2
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
@@ -209,10 +192,10 @@ baidu_analytics: ''
 google_analytics: ''
 
 # 网站图标
-favicon: /favicon.ico
+favicon: /img/avatar.jpg
 
 # 你的头像url
-avatar: /img/head.jpg
+avatar: /img/avatar.jpg
 
 # 是否开启分享
 share_jia: true
@@ -228,32 +211,32 @@ changyan_conf: false
 # 2、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia-plus的
 disqus: false
 
-# 3、Gitment----基于GitHub的评论系统(关闭请设置gitment_owner为false)
+# 3、Gitment----基于GitHub的评论系统(关闭请设置gitment_owner为false)(评论方法一)
 # 关于如何集成:https://www.jianshu.com/p/ac7658cc912f
-gitment_owner: false      #你的 GitHub ID
+#gitment_owner: nate-lin      #你的 GitHub ID
 # 是否使用官方js(false可以提升访问速度，本地修改过一部分的js，官方js可能会出现服务器不稳定，不太建议使用)
-gitment_remote: false
-gitment_repo: ''          #存储评论的 repo name(需要在Github创建)
-gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+#gitment_remote: false
+#gitment_repo: 'nate-lin-demo'          #存储评论的 repo name(需要在Github创建)
+#gitment_oauth:
+#  client_id: '9838a282b077c4c58db1'           #client ID
+#  client_secret: 'b1d7cfecdcb40c2ec59a9834617c72022f29d4cb'       #client secret
 
-# 4、Giteement----【国内用户建议使用这个，相对比较快】
+# 4、Giteement----【国内用户建议使用这个，相对比较快】(评论方法二)
 # 关于如何集成:https://www.jianshu.com/p/f5c4633524c7
 # 基于码云的评论系统(https://gitee.com/zhousiwei/giteement)
 giteement:
-  enable: false  # 是否启用码云评论系统
+  enable: true  # 是否启用码云评论系统
   # 是否使用官方js(false可以提升访问速度)
   remote: false
-  redirect_uri: ''   # 应用回调地址(请和配置的第三方应用保持一致)
+  redirect_uri: https://nate-lin.gitee.io   # 应用回调地址(请和配置的第三方应用保持一致)
   # 不能更改(网上开源项目`https://github.com/Rob--W/cors-anywhere`作者提供的专门用来跨域服务器的配置)
   oauth_uri: https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token
-  giteeID: ''  # 你的码云账号英文名
+  giteeID: 'nate-lin'  # 你的码云账号英文名
   # 存储评论的 repo name(需要在码云仓库创建公开仓库)
-  repo: ''
+  repo: nate-lin-demo
   gitment_oauth:
-    client_id: ''           #client ID
-    client_secret: ''       #client secret
+    client_id: '64c0b881e365f8ebd86a99076e36df032652efe873838e962550e7328a85600b'           #client ID
+    client_secret: '3710b8f7c65e571c19e1a24bf46e8f7c0ec8ca6fcc4f8a47a4ab97c7951a9927'       #client secret
 
 # 访问量统计功能(不蒜子)
 busuanzi:
@@ -263,10 +246,10 @@ busuanzi:
 
 # 网易云音乐插件
 music:
-  enable: false
+  enable: true
   # 播放器尺寸类型(1：长尺寸、2：短尺寸)
   type: 2
-  #id: 1332647902  # 网易云分享的音乐ID(更换音乐请更改此配置项)
+  #id: 1334445174  # 网易云分享的音乐ID(更换音乐请更改此配置项)
   autoPlay: true  # 是否开启自动播放
   # 提示文本(关闭请设置为false)
   text: '这似乎是首纯音乐，请尽情的欣赏它吧！'
@@ -278,8 +261,8 @@ clickLove:
 
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
 github:
-  # (关闭请设置为false)
-  url: https://github.com/JoeyBling/hexo-theme-yilia-plus
+  # (关闭请设置为false)(右上角链接)
+  url: https://github.com/nate-lin
 
 # 页脚 Litten(此配置项已弃用)
 # 帮助我们让更多人可以更方便使用Hexo，请尽量不要修改此主题配置
@@ -292,9 +275,11 @@ baidu_push: false
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
 copyright_type: 2
+# 版权声明自定义文本(关闭请设置为false)
+copyright_text: 
 
 # 网站成立年份(默认为 2018，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-since: 2018
+since: 2020
 
 # Progress Bar | 页面加载进度条
 # Demo: http://github.hubspot.com/pace/docs/welcome/
@@ -331,17 +316,17 @@ activate_power_mode:
   # 使输入模式丰富多彩
   colorful: true
   # 是否开启摇动
-  shake: false
+  shake: true
 
 # 飘雪特效
 # https://github.com/MlgmXyysd/snow.js
-snow: false
+snow: true
 
 # 看板娘动态模型插件
 ## https://github.com/JoeyBling/live2d-widget.js
 live2d:
   # (关闭请设置为false)
-  enable: false
+  enable: true
   # 模型名称(取值请参考：https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/live2d%E6%A8%A1%E5%9E%8B%E5%8C%85%E5%B1%95%E7%A4%BA)
   model: hibiki
   display:
@@ -349,9 +334,9 @@ live2d:
     width: 145  # 模型的长度(default: 150)
     height: 315 # 模型的高度(default: 300)
     hOffset: 50 # 水平偏移(default: 0)
-    #vOffset: -20 # 垂直偏移(default: -20)
+    vOffset: -20 # 垂直偏移(default: -20)
   mobile:
-    show: false # 是否在移动设备上显示(default: true)
+    show: true # 是否在移动设备上显示(default: true)
     scale: 0.6 # 移动设备上的缩放(default: 0.5)
   react:
     opacity: 0.8 # 模型透明度(default: 0.7)
@@ -360,19 +345,22 @@ live2d:
 style:
   # 头像上面的背景颜色
   # header: '#D3D1DC'
-  header: '#4d4d4d'
+  header: '#0099CC'
+  #'#4d4d4d'
+  
   gif:
     # 是否启用左侧边栏动态图效果
-    enable: false
+    enable: true
     # 自定义背景图路径(默认可以不设置，提供默认背景图)
-    # path: /img/biubiubiu.gif
+    path: /img/biubiubiu.gif
   # 右滑板块背景
-  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+  slider: 'linear-gradient(200deg,#0099CC,#e8c37e)'
+  #'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -388,51 +376,50 @@ smart_menu:
 friends:
   技术笔记:  #网站名称
     #网站地址
-    url: https://zhousiwei.gitee.io/ibooks/
+    url: https://nate-lin.gitee.io/categories/%E7%AC%94%E8%AE%B0//
     #网站图片(可忽略不写)
-    img: https://zhousiwei.gitee.io/ibooks/favicon.ico
+    img: https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/avatar.jpg
     #网站简介(可忽略不写)
     description: 记录工作和学习过程中的笔记：Java、前端开发、Hexo博客、聚合支付、Linux笔记、ElasticSearch、ELK日志分析
-  GitHub:
-    url: https://github.com/JoeyBling
   码云:
-    url: https://gitee.com/zhousiwei
-  简书:
-    url: https://www.jianshu.com/u/02cbf31a043a
-  CSDN:
-    url: https://blog.csdn.net/qq_30930805
+    url: https://gitee.com/nate-lin
+  GitHub:
+    url: https://github.com/nate-lin
+
+  #简书:
+  #  url: https://www.jianshu.com/u/02cbf31a043a
+  #CSDN:
+  #  url: https://blog.csdn.net/qq_30930805
+
+  浅悦: 
+    url: https://nate-lin.gitee.io
+
+  千羽: 
+    url: https://nateshao.gitee.io
+
+  mayor: 
+    url: https://uxiu.info/
+
+  試毅-思伟: 
+    url: https://zhousiwei.gitee.io/
+  
 
 # 关于我
-aboutme: 主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:2434387555<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 👋👋关于浅悦<br>🌱浅悦是阁主（林春燕）的个人站。<br>🔭QQ:1724342055<br>📫微信：LCY5643350216<br><br>😉😉对博客的理解<br>✨喜欢写Blog的人，会经历三个阶段。<br>🍌第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。<br>🌋第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。<br>💬第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。<br><br>😄😄Why Blog<br>🚥我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分散分布在各个网站上。很多时候我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制，所以我们需要一个可以由自己主宰的空间——博客。<br>
+
 ```
 
+码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+=======
 
-## 其它项目支持
+&#160;&#160;&#160;&#160;此项目是根据[hexo-theme-yilia](https://github.com/litten/hexo-theme-yilia)主题做了一些优化和改动，写这个项目的初衷就是深入学习`Hexo`。使用`yilia`主题可以快速迁移到`yilia-plus`
 
-- ### 一款简洁优雅的hexo主题：[hexo-theme-yilia-plus](https://github.com/JoeyBling/hexo-theme-yilia-plus)
-- ### 一款简洁优雅的VuePress主题：[vuepress-theme-yilia-plus](https://github.com/JoeyBling/vuepress-theme-yilia-plus)
-- ### VuePress集成Live2D看板娘：[vuepress-plugin-helper-live2d](https://github.com/JoeyBling/vuepress-plugin-helper-live2d)
-- ### VuePress回到页首插件Plus：[vuepress-plugin-gotop-plus](https://github.com/JoeyBling/vuepress-plugin-gotop-plus)
+#### [立即体验](#三开始使用)
 
-## 捐赠
-&#160;&#160;&#160;&#160;**如果感觉对您有帮助，请作者喝杯咖啡吧，请注明您的名字或者昵称，方便作者感谢o(*￣︶￣*)o**
+#### [项目支持](#其它项目支持)
 
-| 微信 | 支付宝 |
-| :---: | :---: |
-| ![](./examples/images/weixin.png) | ![](./examples/images/alipay.jpeg) |
+> **欢迎使用和Star支持，如使用过程中碰到问题，可以提出Issue，我会尽力完善**
 
-### Hexo博客优化
-- [Hexo博客集成码云评论系统](https://www.jianshu.com/p/f5c4633524c7)
-- [Hexo博客集成Gitment评论](https://www.jianshu.com/p/ac7658cc912f)
-- [Hexo 编译文档时 JS或HTML 混乱解决方案](https://www.jianshu.com/p/2a8b850d3f92)
-- [Hexo博客配置RSS插件](https://www.jianshu.com/p/2aaac7a19736)
-- [Hexo博客使用gulp压缩静态资源](https://www.jianshu.com/p/1123c89c491a)
-- [新增Hexo博客文章置顶功能](https://www.jianshu.com/p/a0afac70afc8)
-- [Hexo博客添加helper-live2d动态模型插件](https://www.jianshu.com/p/a7f4a42e4b49)
-- [Hexo博客添加访问量统计](https://www.jianshu.com/p/c9f83d5b893a)
-- [Hexo博客yilia主题添加背景音乐 （网易云音乐）](https://www.jianshu.com/p/f3fe5cb74d32)
-- [使用Hexo+GitHub搭建免费个人博客](https://www.jianshu.com/p/efebead840b2)
+> **同时也欢迎相同爱好者加入一起维护此项目**
 
-## License
-
-[![LICENSE](https://img.shields.io/github/license/JoeyBling/hexo-theme-yilia-plus "LICENSE")](./LICENSE "LICENSE")
+参考于：https://zhousiwei.gitee.io/2019/07/25/hexo%E4%B8%BB%E9%A2%98%E4%B9%8Bhexo-theme-yilia-plus/
