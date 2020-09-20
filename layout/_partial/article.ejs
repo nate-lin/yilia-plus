@@ -12,6 +12,91 @@
   </header>
   <% } %>
   <div class="article-entry" itemprop="articleBody">
+    
+    
+    <% if (page.path === "tags/index.html"){ %>  
+      <!-- 这里也可用type去判断，放在tags标签页 -->
+        <hr>        
+        <div class="tags">
+            <%- tagcloud({
+                min_font: 16, 
+                max_font: 35, 
+                amount: 999, 
+                color: true, 
+                start_color: 'blue', 
+                end_color: 'gray',
+            }) %>
+        </div>
+        
+        <!-- 这里也可以放进css文件中，这样阅读性好些 -->
+        <style>
+           
+            .article-entry ul li:before{
+                display: none;
+            }
+            
+            .tags {
+                max-width: 40em;
+                margin: 2em auto;
+                margin-top: 0em;
+            }
+            .tags a {
+                margin-right: 1em;
+                border-bottom: 1px solid blue;
+                line-height: 65px;
+                white-space: nowrap;
+            }
+            .tags a:hover {
+                border-bottom: 2px solid green;
+                font-style: italic;
+                color: #22323a;
+                text-decoration: none;
+            }
+        </style>
+    <% } %>
+
+    <% if (page.path === "categories/index.html"){ %>  
+      <!-- 这里也可用type去判断，categories分类页 -->
+        <hr>
+        <br>
+        <%- list_categories({
+            depth: 1,
+        }) %>
+
+        <!-- 这里也可以放进css文件中，这样阅读性好些 -->
+        <style>
+            .category-list li{
+                display: inline-block;
+                margin: 0 2em .9em 0;
+                padding: 11px;
+                border: 1px solid #caca1e;
+                font-size: 1.2em;
+            }
+            .category-list a {
+                color: #ffffff;
+            }
+            .category-list-item {
+              background-color: rgb(15 239 17);
+              border-radius: 15%;
+              opacity:0.5; 
+            }
+    
+            .category-list-item:hover a {
+                color: #c16431;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .category-list-count {
+                margin-left: 12px;
+                font-size: .9em;
+            }          
+            
+            .article-entry ul li:before{
+                display: none;
+            }
+        </style>
+    <% } %>
+
     <% if (post.excerpt && index){ %>
     <%- post.excerpt %>
     <% if (theme.excerpt_link) { %>
@@ -20,7 +105,6 @@
     <% } else { %>
     <%- post.content %>
     <% } %>
-
     <% if ((theme.reward_type === 2 || (theme.reward_type === 1 && post.reward)) && !index){ %>
     <div class="page-reward">
       <a href="javascript:void(0);" class="page-reward-btn tooltip-top" target="_self">

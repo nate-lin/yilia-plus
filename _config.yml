@@ -1,27 +1,28 @@
 ﻿# Header-菜单
 menu:
   主页: /
-  技术笔记: https://zhousiwei.gitee.io/ibooks/
-  随笔: /tags/随笔/
-
+  归档: /archives
+  标签: /tags
+  分类: /categories
+  
 # subNav-子导航
-subNav:
-  github: "#"
-  gitee: "#" # 码云
-  jianshu: "#" #简书
-  cnblog: "#"
+subNav: 
+  gitee: https://gitee.com/nate-lin # 码云
+  github: https://github.com/nate-lin
+  #jianshu: "#" #简书
+  #cnblog: "#"
   #blog: "#"
   #csdn: "#"
   #rss: "#"
   #zhihu: "#"
-  #qq: "img/2434387555.jpg"
-  #weixin: "img/weixin_.png"
+  qq: "/img/QQ.jpg"
+  weixin: "/img/WeChat.jpg"
   #weibo: "#"
   #douban: "#"
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:zhousiwei0911@qq.com"
+  mail: "mailto:linchunyan335@163.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -46,7 +47,7 @@ rss: /atom.xml
 
 # Content
 
-# 文章太长，截断按钮文字(在需要截断的行增加此标记：<!--more-->)
+# 文章太长，截断按钮文字（<!-- more -->）
 excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
@@ -67,11 +68,11 @@ reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay: /img/alipay.jpg
 # 微信二维码图片地址
-weixin: /img/weixin.png
+weixin: /img/weixin.jpg
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 1
+toc: 2
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
@@ -86,10 +87,10 @@ baidu_analytics: ''
 google_analytics: ''
 
 # 网站图标
-favicon: /favicon.ico
+favicon: /img/avatar.jpg
 
 # 你的头像url
-avatar: /img/head.jpg
+avatar: /img/avatar.jpg
 
 # 是否开启分享
 share_jia: true
@@ -105,32 +106,32 @@ changyan_conf: false
 # 2、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia-plus的
 disqus: false
 
-# 3、Gitment----基于GitHub的评论系统(关闭请设置gitment_owner为false)
+# 3、Gitment----基于GitHub的评论系统(关闭请设置gitment_owner为false)(评论方法一)
 # 关于如何集成:https://www.jianshu.com/p/ac7658cc912f
-gitment_owner: false      #你的 GitHub ID
+#gitment_owner: nate-lin      #你的 GitHub ID
 # 是否使用官方js(false可以提升访问速度，本地修改过一部分的js，官方js可能会出现服务器不稳定，不太建议使用)
-gitment_remote: false
-gitment_repo: ''          #存储评论的 repo name(需要在Github创建)
-gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+#gitment_remote: false
+#gitment_repo: 'nate-lin-demo'          #存储评论的 repo name(需要在Github创建)
+#gitment_oauth:
+#  client_id: '9838a282b077c4c58db1'           #client ID
+#  client_secret: 'b1d7cfecdcb40c2ec59a9834617c72022f29d4cb'       #client secret
 
-# 4、Giteement----【国内用户建议使用这个，相对比较快】
+# 4、Giteement----【国内用户建议使用这个，相对比较快】(评论方法二)
 # 关于如何集成:https://www.jianshu.com/p/f5c4633524c7
 # 基于码云的评论系统(https://gitee.com/zhousiwei/giteement)
 giteement:
-  enable: false  # 是否启用码云评论系统
+  enable: true  # 是否启用码云评论系统
   # 是否使用官方js(false可以提升访问速度)
   remote: false
-  redirect_uri: ''   # 应用回调地址(请和配置的第三方应用保持一致)
+  redirect_uri: https://nate-lin.gitee.io   # 应用回调地址(请和配置的第三方应用保持一致)
   # 不能更改(网上开源项目`https://github.com/Rob--W/cors-anywhere`作者提供的专门用来跨域服务器的配置)
   oauth_uri: https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token
-  giteeID: ''  # 你的码云账号英文名
+  giteeID: 'nate-lin'  # 你的码云账号英文名
   # 存储评论的 repo name(需要在码云仓库创建公开仓库)
-  repo: ''
+  repo: nate-lin-demo
   gitment_oauth:
-    client_id: ''           #client ID
-    client_secret: ''       #client secret
+    client_id: '64c0b881e365f8ebd86a99076e36df032652efe873838e962550e7328a85600b'           #client ID
+    client_secret: '3710b8f7c65e571c19e1a24bf46e8f7c0ec8ca6fcc4f8a47a4ab97c7951a9927'       #client secret
 
 # 访问量统计功能(不蒜子)
 busuanzi:
@@ -140,7 +141,7 @@ busuanzi:
 
 # 网易云音乐插件
 music:
-  enable: false
+  enable: true
   # 播放器尺寸类型(1：长尺寸、2：短尺寸)
   type: 2
   #id: 1334445174  # 网易云分享的音乐ID(更换音乐请更改此配置项)
@@ -155,8 +156,8 @@ clickLove:
 
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
 github:
-  # (关闭请设置为false)
-  url: https://github.com/JoeyBling/hexo-theme-yilia-plus
+  # (关闭请设置为false)(右上角链接)
+  url: https://github.com/nate-lin
 
 # 页脚 Litten(此配置项已弃用)
 # 帮助我们让更多人可以更方便使用Hexo，请尽量不要修改此主题配置
@@ -173,7 +174,7 @@ copyright_type: 2
 copyright_text: 
 
 # 网站成立年份(默认为 2018，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-since: 2018
+since: 2020
 
 # Progress Bar | 页面加载进度条
 # Demo: http://github.hubspot.com/pace/docs/welcome/
@@ -210,17 +211,17 @@ activate_power_mode:
   # 使输入模式丰富多彩
   colorful: true
   # 是否开启摇动
-  shake: false
+  shake: true
 
 # 飘雪特效
 # https://github.com/MlgmXyysd/snow.js
-snow: false
+snow: true
 
 # 看板娘动态模型插件
 ## https://github.com/JoeyBling/live2d-widget.js
 live2d:
   # (关闭请设置为false)
-  enable: false
+  enable: true
   # 模型名称(取值请参考：https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/live2d%E6%A8%A1%E5%9E%8B%E5%8C%85%E5%B1%95%E7%A4%BA)
   model: hibiki
   display:
@@ -228,9 +229,9 @@ live2d:
     width: 145  # 模型的长度(default: 150)
     height: 315 # 模型的高度(default: 300)
     hOffset: 50 # 水平偏移(default: 0)
-    #vOffset: -20 # 垂直偏移(default: -20)
+    vOffset: -2 # 垂直偏移(default: -20)
   mobile:
-    show: false # 是否在移动设备上显示(default: true)
+    show: true # 是否在移动设备上显示(default: true)
     scale: 0.6 # 移动设备上的缩放(default: 0.5)
   react:
     opacity: 0.8 # 模型透明度(default: 0.7)
@@ -239,14 +240,17 @@ live2d:
 style:
   # 头像上面的背景颜色
   # header: '#D3D1DC'
-  header: '#4d4d4d'
+  header: '#0099CC'
+  #'#4d4d4d'
+  
   gif:
     # 是否启用左侧边栏动态图效果
-    enable: false
+    enable: true
     # 自定义背景图路径(默认可以不设置，提供默认背景图)
-    # path: /img/biubiubiu.gif
+    path: /img/biubiubiu.gif
   # 右滑板块背景
-  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+  slider: 'linear-gradient(200deg,#0099CC,#e8c37e)'
+  #'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
 # slider的设置
 slider:
@@ -267,19 +271,33 @@ smart_menu:
 friends:
   技术笔记:  #网站名称
     #网站地址
-    url: https://zhousiwei.gitee.io/ibooks/
+    url: https://nate-lin.gitee.io/categories/%E7%AC%94%E8%AE%B0//
     #网站图片(可忽略不写)
-    img: https://zhousiwei.gitee.io/ibooks/favicon.ico
+    img: https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/avatar.jpg
     #网站简介(可忽略不写)
     description: 记录工作和学习过程中的笔记：Java、前端开发、Hexo博客、聚合支付、Linux笔记、ElasticSearch、ELK日志分析
-  GitHub:
-    url: https://github.com/JoeyBling
   码云:
-    url: https://gitee.com/zhousiwei
-  简书:
-    url: https://www.jianshu.com/u/02cbf31a043a
-  CSDN:
-    url: https://blog.csdn.net/qq_30930805
+    url: https://gitee.com/nate-lin
+  GitHub:
+    url: https://github.com/nate-lin
+
+  #简书:
+  #  url: https://www.jianshu.com/u/02cbf31a043a
+  #CSDN:
+  #  url: https://blog.csdn.net/qq_30930805
+
+  浅悦: 
+    url: https://nate-lin.gitee.io
+
+  千羽: 
+    url: https://nateshao.gitee.io
+
+  mayor: 
+    url: https://uxiu.info/
+
+  試毅-思伟: 
+    url: https://zhousiwei.gitee.io/
+  
 
 # 关于我
-aboutme: 主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:2434387555<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 👋👋关于浅悦<br>🌱浅悦是阁主（林春燕）的个人站。<br>🔭QQ:1724342055<br>📫微信：LCY5643350216<br><br>😉😉对博客的理解<br>✨喜欢写Blog的人，会经历三个阶段。<br>🍌第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。<br>🌋第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。<br>💬第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。<br><br>😄😄Why Blog<br>🚥我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分散分布在各个网站上。很多时候我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制，所以我们需要一个可以由自己主宰的空间——博客。<br>
