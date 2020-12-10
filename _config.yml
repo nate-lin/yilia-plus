@@ -4,6 +4,9 @@ menu:
   归档: /archives
   标签: /tags
   分类: /categories
+ # 简历: /resume 
+# 个人简历: /cv
+# 简历: /anires/index.html
   
 # subNav-子导航
 subNav: 
@@ -145,7 +148,7 @@ music:
   # 播放器尺寸类型(1：长尺寸、2：短尺寸)
   type: 2
   #id: 1334445174  # 网易云分享的音乐ID(更换音乐请更改此配置项)
-  autoPlay: true  # 是否开启自动播放
+  autoPlay: false  # 是否开启自动播放
   # 提示文本(关闭请设置为false)
   text: '这似乎是首纯音乐，请尽情的欣赏它吧！'
 
@@ -229,7 +232,7 @@ live2d:
     width: 145  # 模型的长度(default: 150)
     height: 315 # 模型的高度(default: 300)
     hOffset: 50 # 水平偏移(default: 0)
-    vOffset: -20 # 垂直偏移(default: -20)
+    vOffset: -3 # 垂直偏移(default: -20)
   mobile:
     show: true # 是否在移动设备上显示(default: true)
     scale: 0.6 # 移动设备上的缩放(default: 0.5)
@@ -292,12 +295,19 @@ friends:
   千羽: 
     url: https://nateshao.gitee.io
 
-  mayor: 
-    url: https://uxiu.info/
-
   試毅-思伟: 
     url: https://zhousiwei.gitee.io/
   
+  风雪: 
+    url: https://www.fxnetw.com/
+
+  Korey:
+    url: https://blog.flqin.com/
+  
+  mayor: 
+    url: https://uxiu.info/
+ 
+
 
 # 关于我
 aboutme: 👋👋关于浅悦<br>🌱浅悦是阁主（林春燕）的个人站。<br>🔭QQ:1724342055<br>📫微信：LCY5643350216<br><br>😉😉对博客的理解<br>✨喜欢写Blog的人，会经历三个阶段。<br>🍌第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。<br>🌋第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。<br>💬第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。<br><br>😄😄Why Blog<br>🚥我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分散分布在各个网站上。很多时候我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制，所以我们需要一个可以由自己主宰的空间——博客。<br>
